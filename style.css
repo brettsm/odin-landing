@@ -1,3 +1,56 @@
-h1 {
-    font-family:'Times New Roman', Times, serif';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body {
+    font-family: 'Roboto';
+}
+
+.top {
+    background-color: #1F2937;
+
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero p, .header li {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+
+.header ul .hlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+li a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+button {
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-color:#F9FAF8;
+    box-shadow: none;
+    border-style: solid;
+}
+.action-sec, button{
+    background-color: #3882F6;
+}
+
+.action-sec .outline-button{
+    outline-color: #F9FAF8;
+}
+
+.hero button {
+    border-color:#3882F6;
 }
